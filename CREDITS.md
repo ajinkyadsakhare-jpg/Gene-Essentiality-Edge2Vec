@@ -160,10 +160,9 @@ This project relies on the following open-source Python libraries:
 **Tool**: Claude Sonnet 4.5
 **Contributions**:
 - Repository architecture and setup
-- Git configuration and submodule management
+- Git submodule integration for external dependencies
 - Code development and implementation assistance
 - Documentation preparation and formatting
-- Version control workflow and GitHub integration
 
 Claude Code assisted in establishing the project structure, implementing core functionality, and preparing the repository for publication.
 
