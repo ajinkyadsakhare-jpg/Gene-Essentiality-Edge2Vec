@@ -1,0 +1,21 @@
+# Kidney Context Configuration
+# ============================
+
+context_name: kidney
+
+# PPI Network (from HELP paper)
+ppi:
+  source: iid
+  tissue: kidney
+  expected_nodes: 19314
+  expected_edges: 1110251
+
+# Bio features
+bio_features:
+  count: 28
+  expression_source: gtex_kidney
+
+# Cell line selection
+cell_lines:
+  filter_by: tissue
+  tissue_type: kidney

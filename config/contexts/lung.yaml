@@ -1,0 +1,21 @@
+# Lung Context Configuration
+# ==========================
+
+context_name: lung
+
+# PPI Network (from HELP paper)
+ppi:
+  source: iid
+  tissue: lung
+  expected_nodes: 19334
+  expected_edges: 1111550
+
+# Bio features
+bio_features:
+  count: 25
+  expression_source: gtex_lung
+
+# Cell line selection
+cell_lines:
+  filter_by: tissue
+  tissue_type: lung

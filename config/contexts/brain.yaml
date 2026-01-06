@@ -1,0 +1,21 @@
+# Brain Context Configuration
+# ===========================
+
+context_name: brain
+
+# PPI Network (from HELP paper)
+ppi:
+  source: iid
+  tissue: brain
+  expected_nodes: 19322
+  expected_edges: 1122029
+
+# Bio features
+bio_features:
+  count: 25
+  expression_source: gtex_brain
+
+# Cell line selection
+cell_lines:
+  filter_by: tissue
+  tissue_type: brain

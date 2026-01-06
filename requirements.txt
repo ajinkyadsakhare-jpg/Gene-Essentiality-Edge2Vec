@@ -1,0 +1,32 @@
+# HELP-Edge2Vec Requirements
+# ==========================
+
+# Core
+numpy
+pandas
+scipy
+
+# ML
+scikit-learn
+lightgbm
+optuna
+
+# Graph
+networkx
+gensim  # For Word2Vec/Skip-gram
+
+# Data formats
+pyarrow  # For parquet
+pyyaml   # For config files
+
+# Utilities
+tqdm
+joblib
+
+# Optional: Visualization
+# matplotlib
+# seaborn
+
+# Optional: Notebooks
+# jupyter
+# ipykernel

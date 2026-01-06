@@ -1,0 +1,25 @@
+# HELP-Edge2Vec: Default Configuration
+# =====================================
+
+# Reproducibility
+random_seed: 42
+
+# Embedding
+embedding:
+  dimensions: 128
+
+# Cross-validation
+cv:
+  n_folds: 5
+  n_iterations: 10
+
+# Data filtering (from HELP paper)
+filtering:
+  min_cell_lines: 10
+  max_missing_rate: 0.95
+
+# Feature normalization
+normalization:
+  bio_features: zscore
+  cccfs_features: zscore
+  embedding_features: none  # Keep as-is (learned space)

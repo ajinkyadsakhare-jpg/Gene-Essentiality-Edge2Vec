@@ -1,0 +1,76 @@
+# Data Source Versions
+# ====================
+# This file tracks the versions and checksums of all raw data sources.
+# Updated automatically by experiments/00_data_acquisition/run.py
+
+depmap:
+  version: null  # v.23Q4
+  downloaded: null
+  checksum: null
+  url: null
+
+string:
+  version: null  # v13
+  downloaded: null
+  checksum: null
+  url: null
+
+iid:
+  version: null
+  downloaded: null
+  checksum: null
+  url: null
+
+gtex:
+  version: null
+  downloaded: null
+  checksum: null
+  url: null
+
+hpa:
+  version: null
+  downloaded: null
+  checksum: null
+  url: null
+
+go:
+  version: null
+  downloaded: null
+  checksum: null
+  url: null
+
+kegg:
+  version: null
+  downloaded: null
+  checksum: null
+  url: null
+
+reactome:
+  version: null
+  downloaded: null
+  checksum: null
+  url: null
+
+biogrid:
+  version: null
+  downloaded: null
+  checksum: null
+  url: null
+
+driverdb:
+  version: null
+  downloaded: null
+  checksum: null
+  url: null
+
+disgenet:
+  version: null
+  downloaded: null
+  checksum: null
+  url: null
+
+compartments:
+  version: null
+  downloaded: null
+  checksum: null
+  url: null

@@ -1,0 +1,21 @@
+# Human Context Configuration
+# ===========================
+
+context_name: human
+
+# PPI Network
+ppi:
+  source: string
+  version: v13
+  # Expected from HELP paper (generic human)
+  expected_nodes: ~19000
+  expected_edges: ~1000000
+
+# Bio features
+bio_features:
+  count: 18
+  expression_source: median_across_tissues
+
+# Cell line selection
+cell_lines:
+  filter_by: all  # Use all cell lines for cEGs

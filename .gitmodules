@@ -1,0 +1,6 @@
+[submodule "external/edge2vec"]
+	path = external/edge2vec
+	url = https://github.com/RoyZhengGao/edge2vec.git
+[submodule "external/icarlearn"]
+	path = external/icarlearn
+	url = https://github.com/giordamaug/ICARlearn.git
